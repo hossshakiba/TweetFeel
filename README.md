@@ -34,9 +34,9 @@ Here are the preprocessing steps taken in this project:<br>
 ## Exploratory Data Analysis (EDA) 📊
 You can find some insightful diagrams in the project that come in handy for data analysis. For instance, here are the word clouds of each label:<br>
 <p class="row" float="left" align="middle">
-  <img src="/images/positive.png" width="300" height="250" title="Positive"/>
-  <img src="/images/neutral.png" width="300" height="250" title="Neutral"/> 
-  <img src="/images/negative.png" width="300" height="250" title="Negative"/>
+  <img src="/images/positive.png" width="250" height="200" title="Positive"/>
+  <img src="/images/neutral.png" width="250" height="200" title="Neutral"/> 
+  <img src="/images/negative.png" width="250" height="200" title="Negative"/>
 </p>
 
 ## Results :white_check_mark:
