@@ -1,4 +1,7 @@
 # COVID-19 Tweets Sentiment Analysis :microbe: :bird:
+<p class="row" float="left" align="middle">
+  <img src="/images/banner.jpg" width="900" height="500" title="confusion matrix"/>
+</p>
 
 ## Overview
 A data & sentiment analysis project on COVID-19 tweets. Tweets are classified into three categories of Positive, Neutral, and Negative. The classifier includes a fine-tuned BERT language model.
@@ -9,7 +12,7 @@ The tweets have been pulled from Twitter and manual tagging has been done then. 
 1) Location :round_pushpin:
 2) Tweet At :date:
 3) Original Tweet :bird:
-4) Label :ok:
+4) Label 💬
 
 
 ## Data Preprocessing :hammer:
@@ -47,3 +50,38 @@ The following figure is the confusion matrix of the test data set:
 <p class="row" float="left" align="middle">
   <img src="/images/cfm.png" title="confusion matrix"/>
 </p>
+
+## Inference ✔️
+Inference applies knowledge from a trained neural network model and a uses it to infer a result. So, when a new unknown data set is input through a trained neural network, it outputs a prediction based on predictive accuracy of the neural network.<br><br>
+Here are some predictions of the trained model for single inputs:<br>
+```Text: this cant be worse. people are dying.
+Predicted Sentiment: Negative
+------------------------------
+Text: Good news is coming.
+Predicted Sentiment: Positive
+------------------------------
+Text: Another boring day in quarantine...
+Predicted Sentiment: Negative
+------------------------------
+Text: Second wave of #COVID19 in Flanders..back to more #homework again...
+Predicted Sentiment: Neutral
+------------------------------
+Text: OK I'm angry now. I cannot believe the stupidity there is out there about #COVID19.
+Predicted Sentiment: Negative
+------------------------------
+Text: Thank GOD! Coronavirus: No deaths reported for 48 hours in Qatar.
+Predicted Sentiment: Positive
+------------------------------
+Text: I lost my cousine because of CORONAVIRUS last week. can't believe it...
+Predicted Sentiment: Negative
+------------------------------
+Text: Get the latest info and updates on #COVID19 on the Canada.ca
+Predicted Sentiment: Neutral
+------------------------------
+Text: I got vacinated today. Hope this #COVID19 ends soon.
+Predicted Sentiment: Positive
+------------------------------
+Text: supermarkets are running out of paper toilets. This is a shame for the gov!!!
+Predicted Sentiment: Negative
+------------------------------
+```
