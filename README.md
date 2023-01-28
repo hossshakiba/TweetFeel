@@ -1,6 +1,7 @@
 # COVID-19 Tweets Sentiment Analysis :microbe: :bird:
+
 <p class="row" float="left" align="middle">
-  <img src="/images/banner.jpg" width="900" height="500" title="confusion matrix"/>
+  <img style="width: 100%; height: auto;" src="/images/banner.jpg" title="confusion matrix"/>
 </p>
 
 ## Overview
@@ -54,7 +55,8 @@ The following figure is the confusion matrix of the test data set:
 ## Inference ✔️
 Inference applies knowledge from a trained neural network model and a uses it to infer a result. So, when a new unknown data set is input through a trained neural network, it outputs a prediction based on predictive accuracy of the neural network.<br><br>
 Here are some predictions of the trained model for single inputs:<br>
-```Text: this cant be worse. people are dying.
+```
+Text: this cant be worse. people are dying.
 Predicted Sentiment: Negative
 ------------------------------
 Text: Good news is coming.
