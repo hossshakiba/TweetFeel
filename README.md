@@ -87,3 +87,10 @@ Text: supermarkets are running out of paper toilets. This is a shame for the gov
 Predicted Sentiment: Negative
 ------------------------------
 ```
+
+# Contributing
+If you are interested in contributing to the project, please follow these steps:
+1. Fork the repository
+2. Create a new branch for your changes
+3. Commit your changes and open a pull request
+
